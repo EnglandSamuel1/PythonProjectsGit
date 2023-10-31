@@ -16,7 +16,7 @@ def calculateBMR():
 root = tk.Tk()
 root.title('Stock Price Calculator')
 
-#label to prompt the user to enter  weight value
+#label to prompt the user to enter weight value
 weight_Label = tk.Label(root, text = "Enter Weight in Lb:")
 weight_Label.grid(row = 0, column = 0)
 
@@ -27,7 +27,7 @@ weightValue = tk.StringVar()
 weight_entry = tk.Entry(root, width=25, textvariable= weightValue)
 weight_entry.grid(row=0, column=1)
 
-#label to prompt user for height in cm
+#label to prompt user for height in ft
 height_Label = tk.Label(root, text = "Enter Height in Ft:")
 height_Label.grid(row = 1, column = 0)
 
