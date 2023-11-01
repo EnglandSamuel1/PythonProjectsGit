@@ -8,7 +8,7 @@ def calculateBMR():
     height = float(heightValue.get()) * 30.48
     age = float(ageValue.get())
     #calculate BMR
-    BMR = 88.362 + ((13.397)* weight) + ((4.799) * height) - ((5.677)* age) 
+    BMR = round(88.362 + ((13.397)* weight) + ((4.799) * height) - ((5.677)* age),)
     #Set BMR Value to BMR
     BMR_value.set(BMR)
 
